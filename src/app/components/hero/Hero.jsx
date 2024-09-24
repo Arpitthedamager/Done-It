@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="mb-32 xlg:mb-48 container mx-auto flex flex-col md:flex-row items-center mt-24">
+    <div className="mb-36 xlg:mb-48 container mx-auto flex flex-col md:flex-row items-center mt-24">
       <div className="text-center md:text-left md:w-1/2">
         <h1 className="text-5xl font-bold mb-6">
           Organize your work and life, finally.
@@ -60,7 +60,7 @@ const HeroSection = () => {
           />
           <img
             alt="Mobile view of the Todoist app interface showing today's tasks."
-            fetchpriority="high"
+            fetchPriority="high"
             width="500"
             height="466"
             className="md:hidden hero_foregroundImage__qSBWY hero_mobile__24rPS"
