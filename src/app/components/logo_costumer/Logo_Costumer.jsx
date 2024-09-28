@@ -3,11 +3,10 @@ import Image from "next/image";
 
 const Logo_costumer = () => {
   return (
-    <div className="relative pb-36 flex flex-col">
+    <div className="relative  flex flex-col">
       <Image
         src="/costumer_logo/logo5.avif"
         alt=""
-        layout="responsive"
         width={1512}
         height={332}
         className="absolute inset-0 z-0 object-cover"
